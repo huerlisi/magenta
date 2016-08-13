@@ -5,7 +5,7 @@
 ## Basics
 Handles are kernel constructs that allows user-mode programs to
 reference a kernel object. A handle can be thought as a session
-or connection to a paricular kernel object.
+or connection to a particular kernel object.
 
 It is often the case that multiple processes concurrently access
 the same object via different handles. However, a single handle
